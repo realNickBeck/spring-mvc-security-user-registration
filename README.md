@@ -1,7 +1,9 @@
 # spring-mvc-security-user-registration
 Used spring security to make a login page that connects to a mySQL Workbench database. 
 
-Functionalities include:1) validation for all input fields using Spring-Validation
+Functionalities include:
+
+1) validation for all input fields using Spring-Validation
 2) sign up form to register new users that provides the role of employee automatically 
 3) Used Thymeleaf to parse and render the data produced by the application to template files
 4) Used Hibernate/JPA to map application entities to the relational database tables 
@@ -10,38 +12,23 @@ Functionalities include:1) validation for all input fields using Spring-Validati
 
 # Dependencies Used In Spring Framework
 
-<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-data-jpa</artifactId>
-</dependency>
+1) spring-boot-starter-security
+2) mysql-connector-j
+3) spring-boot-starter-thymeleaf
+4) spring-boot-starter-web
+5) thymeleaf-extras-springsecurity6
+6) spring-boot-starter-validation
+7) spring-boot-devtools
+8) spring-boot-starter-data-jpa
 
-<dependency>
-  <groupId>com.mysql</groupId>
-  <artifactId>mysql-connector-j</artifactId>
-  <scope>runtime</scope>
-</dependency>
+# Project Set-up
+<img width="331" alt="Screenshot 2023-10-09 at 2 19 36 AM" src="https://github.com/realNickBeck/spring-mvc-security-user-registration/assets/101303615/f250dbfd-7359-413b-9282-7d27b4379be1">
 
-<dependency>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-starter-security</artifactId>
-</dependency>
+<img width="331" alt="Screenshot 2023-10-09 at 2 21 45 AM" src="https://github.com/realNickBeck/spring-mvc-security-user-registration/assets/101303615/989549bd-26f0-4219-b256-2b2056df38f1">
 
-<dependency>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-starter-thymeleaf</artifactId>
-</dependency>
+# Database 
+<img width="453" alt="Screenshot 2023-10-09 at 2 24 03 AM" src="https://github.com/realNickBeck/spring-mvc-security-user-registration/assets/101303615/cd6e94e1-48c7-4b9a-9a8a-9031c7b32b89">
 
-<dependency>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-starter-web</artifactId>
-</dependency>
 
-<dependency>
-  <groupId>org.thymeleaf.extras</groupId>
-  <artifactId>thymeleaf-extras-springsecurity6</artifactId>
-</dependency>
 
-<dependency>
-  <groupId>org.springframework.boot</groupId>
-  <artifactId>spring-boot-starter-validation</artifactId>
-</dependency>
+
